@@ -1,0 +1,339 @@
+body, h1, h2, p, a, ul, li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Nunito", helvetica, sans-serif;
+    color: #222222;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+/* Info */
+#super-info{
+    background: #122ab2;
+    color: white;
+}
+#info a{
+    color: white;
+}
+#info{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+#info p, #info a{
+    margin: 0 10px 10px 10px;
+}
+/*Menu */
+#menu-bg{
+    background: #2c70ff;
+}
+#menu{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+#menu-logo a{
+    font-weight: bold;
+    color: white;
+    font-size: 2.25em;
+    margin: 0 10px;
+}
+#menu-lista ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#menu-lista li a{
+    color: white;
+    display: block;
+    padding: 10px;
+    font-size: 1.25em;
+}
+#menu-lista li a:hover{
+    color: #122ab2;
+}
+/*Introdução*/
+#introdução{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 0px 40px 10px;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+}
+
+/* Sobre */
+#sobre{
+    border-top: 2px solid #122ab2;
+    border-bottom: 2px solid #122ab2;
+    max-width: 960px;
+    padding: 60px 0;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+#sobre-info h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+#sobre-info p {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+#sobre-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+/*Produtos */
+#produtos{
+    max-width: 960px;
+    margin: 60px auto;
+}
+#produtos h1{
+    font-size: 3em;
+    margin: 0 10px;
+}
+#produtos-container{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+.produtos-item{
+    flex: 1 1 175px;
+    margin: 10px;
+}
+.produtos-item h2{
+    font-size: 3em;
+    color: #a4a4a4;
+    padding: 60px 20px;
+    background: #f7f7f7;
+}
+.purple{
+    border-top: 8px solid #ae81ff;
+}
+.pink{
+    border-top: 8px solid #f9265e;
+}
+.blue{
+    border-top: 8px solid #66d9eb;
+}
+/* Preço */
+#preco{
+    background: #f7f7f7;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.preco-item{
+    margin:10px;
+    padding: 20px;
+    flex: 1;
+    border: 4px solid white;
+
+}
+.preco-item h2{
+    font-size: 2.25em;
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: 20px;
+}
+.preco-item span{
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+.preco-item sup{
+    font-size: 1.5rem
+}
+.preco-item ul{
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #7c7c7c;
+}
+.preco-item li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.preco-item li::after{
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #122ab2;
+}
+.preco-item a{
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    border: 4px solid #222222;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-size: 2.25em;
+    color: #222222;
+    font-weight: bold;
+    text-align: center;
+}
+@media (max-width: 739px){
+    #preco{
+        padding-left: 10px;
+        padding-right: 10px;
+    }  
+}
+@media (max-width: 739px){
+    #preco .preco-item:nth-child(3){
+        order: -2;
+    }
+    #preco .preco-item:nth-child(2){
+        order: -1;
+    }
+}
+/* Qualidade */
+#qualidade{
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.qualidade-item{
+    flex: 1 1 300px;
+    margin: 20px 10px;
+    
+}
+.qualidade-item h2{
+    font-size: 2.25em;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+}
+.qualidade-item h2:before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 20px;
+    background: currentColor;
+    margin-right: 10px;
+}
+
+.qualidade-item:nth-of-type(3n + 1) h2:before{
+    background: #ae81ff;
+}
+.qualidade-item:nth-of-type(3n + 2) h2:before{
+    background: #f9265e;
+}
+.qualidade-item:nth-of-type(3n + 3) h2:before{
+    background: #66d9eb;
+}
+.qualidade-item p{
+    color: #7c7c7c;
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+/* Newsletter*/
+#newsletter{
+    background: #f7f7f7;
+    padding: 60px calc((100% - 960px) /2);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#newsletter-info{
+    flex: 1 1 240px;
+    margin: 0 10px;
+}
+#newsletter-info h1{
+    font-size: 3em;
+    color: #a4a4a4;
+}
+#newsletter-info p{
+    font-size: 1.25em;
+    font-style: italic;
+    max-width: 260px;
+    color: #a4a4a4;
+    margin-bottom: 10px;
+}
+#newsletter-form{
+    flex: 2 1 260px;
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#newsletter-form input{
+    flex: 3 1 200px;
+    padding: 15px 10px;
+    background: none;
+    border: 4px solid #2c70ff;
+    font-style: italic;
+    font-family: "Nunito", helvetica, sans-serif;
+    font-size: 1.25em;  
+    color: #7c7c7c;
+    margin: 0px;
+    border-radius: 0px;
+}
+#newsletter-form button{
+    flex: 1 1 260px;
+    background: #122ab2;
+    border: none;
+    font-family: "Nunito", helvetica, sans-serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background:#2c70ff;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+    padding: 15px 10px;
+    
+}
+@media (max-width:600px){
+    #newsletter-form button{
+        font-size: 1.5em;
+    }
+}
+/* Footer */
+#footer{
+    display: flex;
+    background: #2c70ff;
+    height: 200px;
+    align-items: center;
+}
+#footer p{
+    font-size: 1.25em;
+    flex: 1;
+    text-align: center;
+}
