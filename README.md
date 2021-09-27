@@ -7,7 +7,7 @@
 ![Imagem Site](https://github.com/Andrewsoares15/Flex-blog/blob/main/FlexBox.png)
 
 Jordan
-Andrew
+Lionel Messi
 
 ## Tecnologias usadas
 
