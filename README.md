@@ -8,6 +8,7 @@
 
 Jordan
 Lionel Messi
+Amanda Belém
 
 ## Tecnologias usadas
 
