@@ -4,7 +4,7 @@
 ## Imagem
 ![Imagem Site](https://github.com/Andrewsoares15/Flex-blog/blob/main/FlexBox.png)
 
-Jordan
+Reflex,
 
 ## Tecnologias usadas
 - HTML5
